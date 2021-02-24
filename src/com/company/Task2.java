@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main1 {
+public class Task2 {
 
     public static final int LENGTH = 6;
 
