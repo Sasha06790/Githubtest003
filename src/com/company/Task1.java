@@ -11,9 +11,9 @@ public class Task1 {
         String hour = "0";
         String minute = "0";
         int counter = 0;
-        for (int hrs = 0; hrs <= 24; hrs++) {
+        for (int hrs = 0; hrs <= 23; hrs++) {
             hour = "0";
-            for (int mnts = 0; mnts <= 60; mnts++) {
+            for (int mnts = 0; mnts <= 59; mnts++) {
                 minute = "0";
                 if (hrs < 10) {
                     hour = "0" + String.valueOf(hrs);
@@ -31,7 +31,6 @@ public class Task1 {
                     counter++;
                 }
             }
-
         }
         return counter;
     }
